@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+html {
+    font-family: serif;
+    user-select: none;
+}
+body {
+    background: linear-gradient(90deg,rgb(236, 5, 5),rgb(9, 9, 221));
+}
+
+.container {
+    max-width: 420px;
+    height: 70vh;
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.screen {
+    margin: 24px auto;
+    width: 400px;
+    height: 120px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 12px;
+    position: relative;
+    overflow: hidden;
+}
+
+.content {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 42px;
+    color: #000;
+    font-weight: 600;
+    
+}
+
+.keyboard {
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px auto 40px;
+    justify-content: space-between;
+}
+
+.btn-key {
+    width: 20%;
+    min-height: 36px;
+    line-height: 36px;
+    text-align: center;
+    margin: 4px;
+    color: rgba(18, 150, 47, 0.712);
+    border: 2px solid rgba(204, 204, 204, 0.459);
+    font-size: 22px;
+    border-radius: 50%;
+}
+
+.btn-key:hover {
+    cursor: pointer;
+}
+
+.bg-orange {
+    background-color: orange;
+    color:#000;
+    font-size: 30px;
+}
+
+.bg-blue {
+    background-color: rgb(42, 158, 167);
+    color:rgb(192, 18, 18);
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.mouse-down {
+    background-color: #ccc;
+    color: red;
+}
+
+.light {
+    color: green;
+    background-color: #fff;
+}
